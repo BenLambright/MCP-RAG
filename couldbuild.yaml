@@ -1,0 +1,6 @@
+# cloudbuild.yaml
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '-t', 'us-east1-docker.pkg.dev/$PROJECT_ID/image1/mcp-rag:v2-amd64', '.']
+images:
+- 'us-east1-docker.pkg.dev/$PROJECT_ID/image1/mcp-rag:v2-amd64'
