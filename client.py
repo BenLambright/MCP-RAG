@@ -1,6 +1,6 @@
 import requests
 
-SERVER_URL = "http://localhost:8000/rag"  # replace later with however we're hosting this
+SERVER_URL = "http://localhost:8080/rag"  # or wherever were hosting
 
 def ask_rag(question: str, top_k: int = 3):
     resp = requests.post(SERVER_URL, json={"question": question, "top_k": top_k})
