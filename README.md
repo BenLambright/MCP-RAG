@@ -18,6 +18,14 @@ A comparison of running a simple RAG-style information retrieval how we've been 
 
 ---
 
+## Important notes
+The following files are depreciated (not used for the final draft), but I kept them to show you guys my progress:
+`ingest.py`, `install-deps.sh`, anything with "faiss" in the name
+
+The *main* scripts are `query-cntrl.py` and `query-mcp.py`. All other scripts are supporting scripts. See relevant sections for more details.
+
+---
+
 ## Development & environment (short)
 - Python 3.8+ recommended.
 - Install dependencies: pip install -r requirements.txt
