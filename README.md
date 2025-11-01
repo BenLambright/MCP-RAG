@@ -1,5 +1,7 @@
 # Big Data Analytics — Term Paper
 
+Benjamin Lambright & Pearlrose Nwuke
+
 ## Goal
 A comparison of running a simple RAG-style information retrieval how we've been doing in class on PySpark versus running it on a Docker image to simulate a simple MCP server.
 
